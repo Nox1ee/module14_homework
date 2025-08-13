@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input__list {
+            margin-top: 200px;
+
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .input__item {
+            padding: 10px;
+
+            width: 350px;
+
+            font-size: 24px;
+        }
+
+        .button {
+            display: block;
+
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 20px 60px;
+
+            font-size: 25px;
+        }
+
+        .errorMessage {
+            text-align: center;
+            margin-top: 10px;
+
+            font-size: 36px;
+        }
+
+        .images {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="input__list">
+        <input class="input__item" id="inputWidth" type="number" placeholder="Ширина (100-300)">
+        <input class="input__item" id="inputHeight" type="number" placeholder="Высота (100-300)">
+    </div>
+    <button class="button">Отправить</button>
+    <p class="errorMessage"></p>
+    <div class="images"></div>
+    <script src="task-4.js"></script>
+</body>
+</html>
